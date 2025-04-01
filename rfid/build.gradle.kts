@@ -4,6 +4,9 @@ plugins {
     `maven-publish`
 }
 
+version = "1.0.0"
+description = "RFID Library for Java"
+
 repositories {
     mavenCentral()
 }
