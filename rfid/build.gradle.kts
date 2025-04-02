@@ -1,10 +1,11 @@
 plugins {
     alias(libs.plugins.shadow.jar)
+    alias(libs.plugins.kotlin.jvm)
     `java-library`
     `maven-publish`
 }
 
-version = "1.0.0"
+version = "1.0.1"
 description = "RFID Library for Java"
 
 repositories {
